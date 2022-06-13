@@ -51,8 +51,8 @@
 
 /***************** MQTT CLIENT CONNECTION CONFIGURATION MACROS *****************/
 /* MQTT Broker/Server address and port used for the MQTT connection. */
-#define MQTT_BROKER_ADDRESS              "mqtt.tinymachinelearning.com" //"MY_MQTT_BROKER_ADDRESS"
-#define MQTT_PORT                         1883 //8883
+#define MQTT_BROKER_ADDRESS              "MY_MQTT_BROKER_ADDRESS"
+#define MQTT_PORT                         1883
 
 /* Set this macro to 1 if a secure (TLS) connection to the MQTT Broker is
  * required to be established, else 0.
@@ -60,8 +60,8 @@
 #define MQTT_SECURE_CONNECTION            ( 0 )
 
 /* Configure the user credentials to be sent as part of MQTT CONNECT packet */
-#define MQTT_USERNAME                     "naveen"
-#define MQTT_PASSWORD                     "machchhar"
+#define MQTT_USERNAME                     "MY_USERNAME"
+#define MQTT_PASSWORD                     "MY_PASSWORD"
 
 
 /********************* MQTT MESSAGE CONFIGURATION MACROS **********************/
